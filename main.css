@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1{
+    height:68vh;
+    background-image: url(./images/container1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:80%;
+    background-color:rgb(180,189,203);
+    display: flex;
+
+}
+
+.right-nav{
+    position: absolute;
+    right:80px;
+    top:50px;
+}
+
+li{
+    list-style-type: none;
+    padding:5px;
+    display: block;
+}
+
+a{
+    color:white;
+    text-transform:uppercase;
+    text-decoration:none;
+    
+}
+
+.right-nav ul li a{
+    color:white;
+    text-decoration: none;
+    float:right;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.explanation{
+    align-self: flex-end;
+    height: 68%;
+    font-size: 1.7em;
+    width:22%;
+    letter-spacing: 0.01em;
+    display: flex;
+    flex-direction: column;
+    margin-left:3%;
+    color:white;
+    line-height:2.7em;
+}
+
+.container-1 .lastdiv{
+    border-top:3px white solid;
+    margin-top: 30%;
+}
+.lastdiv ul li {
+    display: inline;
+    font-size: 0.8em;
+}
+
+.lastdiv ul li a{
+    font-size: 20px;
+}
+
+.container-2{
+    display: grid;
+    height:70vh;
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.left{
+    background-image:url(./images/neralink1.jpg);
+    background-color: #d6c0c2;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:60%;
+    
+    
+}
+
+.container h2{
+    font-size: 40px;
+    color:white;
+    text-transform: capitalize;
+    
+}
+
+.middle{
+    background-image: url(./images/neuralink2.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 60%;
+    
+    background-color: #a7ceef;
+    position: relative;
+}
+
+.container-2 .lastdiv{
+    position: absolute;
+    bottom:50px;
+    left:60px;
+    
+}
+
+.end{
+    background-image: url(./images/neuralink3.jpg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    
+    background-color: #acb5ac;
+    position: relative;
+}
+
+.container-2 h2{
+    position: absolute;
+    top:60px;
+    left:60px;
+}
+
+.container-3{
+    height:60vh;
+    background-image: url(./images/container3.jpg);
+    background-size: cover;
+    position:relative;
+}
+
+.innercontainer-3{
+    width:31%;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.innercontainer-3 h2{
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+.innerinner{
+    width:100%;
+}
+.paragrap{
+    width:60%;
+    font-size: 1.2em;
+}
+.innercontainer-3 .innerinner{
+    border-top:white 3px solid;
+    padding-top: 50px;
+    color:white;
+    
+}
+.innercontainer-3 .lastdiv ul li a{
+    position: absolute;
+    bottom:50px;
+    left:60px;
+}
+footer{
+    background-color: #f2f7f7;
+    display: flex;
+    height:20vh;
+    align-items: center;
+    padding-top: 30px;
+}
+
+footer .logo
+{
+    flex-grow: 1.5;
+}
+
+footer .copyright{
+    flex-grow: 3;
+    align-self: center;
+    color:rgba(128,128,128,0.8);
+}
+
+footer .navigation{
+    flex-grow: 1;
+    
+}
+.navigation ul li{
+    padding-bottom: 0.5px;
+}
+.navigation ul li a{
+    text-transform: uppercase;
+    font-size: 12px;
+    color:rgba(128,128,128,0.8);
+    font-weight: bold;
+}
+
+.navigation ul li a:hover{
+    color:black;
+}
+footer .contact{
+    flex-grow:3;
+}
+
+.contact a{
+    color:rgba(128,128,128,0.8);
+    padding-bottom: 1px;
+    display: block;
+}
+.l{
+    height: 50px;
+    padding-right: 70px;
+}
+
+.contact input{
+    
+    outline:none;
+    border:none;
+    border-bottom: 3px rgba(128,128,128,0.4) solid;
+    width:90%;
+    height: 3vh;
+    background:#f2f7f7;
+}
+.contact input:hover{
+    border-bottom: 3px rgb(128,128,128) solid;
+}
+.end:hover{
+    opacity:0.7;
+}
+.left:hover{
+    opacity:0.7;
+}
+.middle:hover{
+    opacity:0.7;
+}
